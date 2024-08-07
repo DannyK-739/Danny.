@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+   <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/Kwhite.png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/4ffbcc172d.js" crossorigin="anonymous"></script>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+           <title>
+            Portfolio
+        </title>
+    </head>
+    <body>
+          <!-------------Home Tab--------------------->
+           <div id="header">
+           <div class="container">
+               <nav>
+                   <img src="img/logo.png" class="logo">
+                   <ul id="sidemenu">
+                       <li><a href="#header">HOME</a></li>
+                       <li><a href="#about">ABOUT</a></li>
+                       <li><a href="#services">SERVICES</a></li>
+                       <li><a href="#portfolio">PORFOLIO</a></li>
+                       <li><a href="#contact">CONTACT</a></li>
+                       <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                   </ul>
+                   <i class="fas fa-bars" onclick="openmenu()"></i>
+               </nav>
+               <div class="header-text">
+                   <p>Web Developer/Designer</p>
+                   <h1>Hi, I'm <span>Danny</span><br>from Pakistan</h1>
+               </div>
+           </div>
+       </div> 
+       
+           <!----------------About Tab Started------------->
+       
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img/me.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p></p>
+                        <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Game Development</span><br>Unity 2D/3D Game Development</li>
+                            <li><span>Adobe Photoshop</span><br>Image Editing &amp; Designing</li>
+                            <li><span>Android &amp; Windows Hacking</span><br>Using Kali Linux &amp; Windows Payload</li>
+                            <li><span>Lens Creation</span><br>Snapchat Lens Creation using Lens Studio</li>
+                            <li><span>Canva Designing</span><br>Designs for Social Media etc</li>
+                            <li><span>Video Editing</span><br>Using Adobe Premier Pro, Alightmotion &amp; Capcut</li>
+                            <li><span>Telegram Bot Development</span><br>Responsive bot using Replit/Glitch</li>
+                            <li><span>MS Office</span><br>All Ms Office Softwares Knowledge</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-content" id="experience">
+                            <ul>
+                            <li><span>Porfolio</span><br>Made this own Portfolio</li>
+                            <li><span>Snapchat Lenses</span><br>Checkout on Snapchat @dannyk_739</li>
+                            <li><span>Developing a Game</span><br>In Development State</li>
+                            <li><span>Working on a Group Project</span><br>An agency Website, Development State</li>
+                            <li><span>Developing a Bot</span><br>In Development State</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-content" id="education">
+                            <ul>
+                            <li><span>Bachelor of Science in Computer Science</span><br>Ibadat International Unitversity Islamabad &#91;2024-Present&#93;</li>
+                            <li><span>FSC &#40;Computer Science&#41;</span><br>KRL Model College &#91;2021-23&#93;</li>
+                            <li><span>Matriculation &#40;Medical&#41;</span><br>KRL Model College &#91;2019-21&#93;</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+               <!---------Services Tab Started------------->
+        
+        <div id="services">
+            <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                   <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing Web Apps using Html, CSS &amp; Js</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design"><i class="fa-solid fa-circle-exclamation"></i>Learn More</a>
+                </div>
+                <div>
+                   <i class="fa-solid fa-crop"></i>
+                    <h2>Social Media Designs</h2>
+                    <p>Social Media Posts, Banners, Ads , Thumbnails etc</p>
+                    <a href="https://www.pinterest.com/mohunhimesh/social-media-design/"><i class="fa-solid fa-circle-exclamation"></i>Learn More</a>
+                </div>
+                  <div>
+                   <i class="fa-brands fa-bots"></i>
+                    <h2>Bot Development</h2>
+                    <p>Telegram Bot Development Using Python, Nodejs etc</p>
+                    <a href="https://core.telegram.org/bots/features"><i class="fa-solid fa-circle-exclamation"></i>Learn More</a>
+                </div>
+            </div>
+            </div>
+        </div>
+           <!---------------Portfolio Section Started--------->
+       <div id="portfolio">
+           <div class="container">
+           <h1 class="sub-title">My Work</h1>
+           <div class="work-list">
+               <div class="work">
+                   <img src="img/logo.png">
+                   <div class="layer">
+                       <h3>
+                        Potfolio Website
+                       </h3>
+                       <p>Using Html, CSS &amp; JS</p>
+                       <a href="#"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                   </div>
+               </div>
+               <div class="work">
+                   <img src="img/lens.png">
+                   <div class="layer">
+                       <h3>
+                        Snapchat Lenses
+                       </h3>
+                       <p>Created using Lens Studio and Adobe Photoshop</p>
+                       <a href="https://linktr.ee/dannyk_739"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                   </div>
+               </div>
+               <div class="work">
+                   <img src="img/unity.jpg">
+                   <div class="layer">
+                       <h3>
+                        Mystic Crime
+                       </h3>
+                       <p>A time loop Game &#40;In Development State &#41;</p>
+                       <a href=""><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                   </div>
+               </div>
+           </div>
+           <a href="#contact" class="btn">See More</a>
+           </div>
+       </div>
+       <!----------------------Contact Section ------------->
+       <div id="contact">
+           <div class="container">
+               <div class="row">
+                   <div class="contact-left">
+                       <h1 class="sub-title">Contact Me</h1>
+                       <p><i class="fa-solid fa-envelope"></i> Danyalkhattak@duck.com</p>
+                       <p><i class="fa-solid fa-phone"></i> +92 335 7729009</p>
+                       <div class="social-icons">
+                           <a href="https://www.facebook.com/dannyk.739"><i class="fa-brands fa-facebook"></i></a>
+                           <a href="https://www.linkedin.com/in/dannyk739/"><i class="fa-brands fa-linkedin"></i></a>
+                           <a href="https://github.com/DannyK-739"><i class="fa-brands fa-github"></i></a>
+                           <a href="https://www.instagram.com/dannyk_739/"><i class="fa-brands fa-instagram"></i></a>
+                       </div>
+                       <a href="/pdf/Resume-Danyal-Khattak.pdf" download class="btn btn2">Download CV</a>
+                   </div>
+                   <div class="contact-right">
+                       <form name="submit-to-google-sheet">
+                           <input type="text" name="Name" placeholder="Your Name" autocomplete="name" required>
+                            <input type="email" name="Email" placeholder="Your Email" autocomplete="email" required>
+                           <textarea type="text" name="Message" rows="6" placeholder="Your Message"></textarea>
+                           <button type="submit" class="btn btn2">Submit</button>
+                       </form>
+                       <span id="msg"></span>
+                   </div>
+               </div>
+           </div>
+           <div class="copyright">
+               <p>Copyright &copy; Danny K.Made with <i class="fa-solid fa-heart"></i> by DannyK </p>
+           </div>
+       </div>
+       
+        <script>
+            <!--------------About Menu Script---------->
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+            <!------------- Side Menu Script --------------->
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+            </script>
+            <!------------- Form Script ---------------------->
+             
+            <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyRJ2xQFsEfaE_ruNaYOzoo7OkALQ6lo6uLK0DNfKUcSxtLqQARTXJ3ljxZdEY3fzLs/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+  form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => {
+  msg.innerHTML = "Message Sent Successfully"
+  setTimeout(function(){
+  msg.innerHTML = ""
+  },5000)
+  form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+        </script>
+        
+    </body>
+</html>
